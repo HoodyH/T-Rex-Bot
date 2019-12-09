@@ -6,16 +6,31 @@ import mss.tools
 from numpy import array, mean
 
 """
-Set this data
+Set this data to match your configurations
 """
-screen_resolution_w = 1920
-screen_resolution_h = 1080
+screen_resolution_w = 1366
+screen_resolution_h = 768
 
+# if false the browser is in the right half of the monitor
+full_screen = False
+
+"""
+Use the SNAPSHOT function to match the requirements in the README
+"""
 top = 415
 left = 830
 
 
 """
+
++---+                                            +---+
+    ---------------------------------------------
+      ___
+    -__-            |
+     ||             |
+    ---------------------------------------------
+    
+    
 top = 414
 left = 900
 
@@ -23,9 +38,12 @@ You can play here http://www.trex-game.skipser.com/
 Calibrate the tail of the t-rex at the start of the calibration monitor 
 """
 
+swipe =
+
 calibration_monitor = {'top': top, 'left': left, 'width': 200, 'height': 35}
-pterodactylus_monitor = {'top': top + 30, 'left': left+100, 'width': 70, 'height': 5}
-kaktus_monitor = {'top': top, 'left': left+90, 'width': 80, 'height': 35}
+down_monitor = {'top': top, 'left': left+90, 'width': 60, 'height': 35}
+obstacle_monitor = {'top': top, 'left': left + 90, 'width': 90, 'height': 35}
+incoming_obstacle_monitor = {'top': top, 'left': left + 90, 'width': 30, 'height': 35}
 
 
 def up():
@@ -51,21 +69,23 @@ def boot():
     sct = mss.mss()
     jumped = False
 
+    speed = time.time()
+    next_obstacle_speed
+
     while True:
         # Creates a full snapshot of the screen and returns an RGB image
-        sct_kaktus = sct.grab(kaktus_monitor)
-        sct_pterodactylus = sct.grab(pterodactylus_monitor)
+        sct_obstacle = array(sct.grab(obstacle_monitor))
+        sct_down = array(sct.grab(down_monitor))
 
-        sct_kaktus = array(sct_kaktus)
-        processed_image = process_image(sct_kaktus)
+        obstacle_image = process_image(sct_obstacle)
 
-        gradient = mean(processed_image)
+        obstacle = mean(obstacle_image)
 
-        if int(gradient) is not 0:
+        if int(obstacle) is not 0:
             up()
             jumped = True
 
-        if int(gradient) is 0 and jumped is True:
+        if int(obstacle) is 0 and jumped is True:
             down()
             jumped = False
 
