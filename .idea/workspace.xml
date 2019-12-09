@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b174b4-b0e1-450a-a867-9886f40c0c61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rex.py" beforeDir="false" afterPath="$PROJECT_DIR$/rex.py" afterDir="false" />
     </list>
@@ -79,7 +78,7 @@
       <updated>1575903506510</updated>
       <workItem from="1575903509292" duration="834000" />
       <workItem from="1575904988765" duration="2316000" />
-      <workItem from="1575909147335" duration="1251000" />
+      <workItem from="1575909147335" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="smart jump version">
       <created>1575907251219</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575907251219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working on speed jump">
+      <created>1575911669045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575911669045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +104,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Only jump version" />
     <MESSAGE value="smart jump version" />
-    <option name="LAST_COMMIT_MESSAGE" value="smart jump version" />
+    <MESSAGE value="working on speed jump" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on speed jump" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575903909113">
@@ -109,10 +116,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="430" y="201" width="563" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1575910299523" />
-    <state x="246" y="27" width="931" height="741" key="CommitChangelistDialog2" timestamp="1575907250820">
+    <state x="246" y="27" width="931" height="741" key="CommitChangelistDialog2" timestamp="1575911668625">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="246" y="27" width="931" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1575907250820" />
+    <state x="246" y="27" width="931" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1575911668625" />
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1575903906822">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -137,10 +144,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1575903696715" />
-    <state x="67" y="121" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1575907268169">
+    <state x="67" y="121" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1575911672782">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="67" y="121" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1575907268169" />
+    <state x="67" y="121" width="800" height="551" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1575911672782" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/T_Rex_Bot$rex.coverage" NAME="rex Coverage Results" MODIFIED="1575909171171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

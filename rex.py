@@ -38,7 +38,7 @@ You can play here http://www.trex-game.skipser.com/
 Calibrate the tail of the t-rex at the start of the calibration monitor 
 """
 
-swipe =
+swipe = 1
 
 calibration_monitor = {'top': top, 'left': left, 'width': 200, 'height': 35}
 down_monitor = {'top': top, 'left': left+90, 'width': 60, 'height': 35}
