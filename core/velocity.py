@@ -28,7 +28,7 @@ class DelayCalculation(Thread):
 
     @property
     def delay(self):
-        return self.remap_range(self.__points, 0, 9999, 0, self.__max_delay)
+        return self.remap_range(self.__points, 0, 1999, 0, self.__max_delay)
 
     @staticmethod
     def remap_range(value, actual_min, actual_max, new_min, new_max):

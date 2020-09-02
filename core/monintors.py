@@ -36,6 +36,6 @@ calibration_monitor = {
 next_obstacle_monitor = {
     'top': top,
     'left': left + 300,
-    'width': 80,
+    'width': 100,
     'height': 35
 }

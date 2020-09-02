@@ -9,8 +9,8 @@ if __name__ == "__main__":
     print('0 or ctr-C to exit')
 
     while True:
-        # choice = int(input())
-        choice = 1
+        choice = int(input())
+        # choice = 1
         if choice is 0:
             break
 
